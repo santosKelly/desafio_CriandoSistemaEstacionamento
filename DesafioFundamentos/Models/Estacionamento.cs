@@ -55,9 +55,10 @@ namespace DesafioFundamentos.Models
             {
 
                 int contadorForeach = 0;
+                Console.WriteLine("Os veículos estacionados são: ");
                 foreach (string item in veiculos)
                 {
-                    Console.WriteLine($"Os veículos estacionados são: {item}");
+                    Console.WriteLine($"{item}");
                     contadorForeach++;
                 }
             }
